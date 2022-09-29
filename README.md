@@ -13,6 +13,6 @@ Here is a link to the google form we used to conduct our interview questions dur
 
 https://docs.google.com/forms/d/e/1FAIpQLSf0SdGqLGcgTNKwU7WXws9SkSJcLHJSKxuTl0ko7xjVIHOeHQ/viewform?usp=sharing
 
-##IEEE Report
+## IEEE Report
 
-[Game_Hardware_Assignment 1 Final Paper.pdf](https://github.com/dukeofdance/Game-Hardware-A1/files/9670870/Game_Hardware_Assignment.1.Final.Paper.pdf)
+![Game_Hardware_Assignment 1 Final Paper.pdf](https://github.com/dukeofdance/Game-Hardware-A1/files/9670870/Game_Hardware_Assignment.1.Final.Paper.pdf)
