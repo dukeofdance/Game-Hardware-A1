@@ -6,6 +6,7 @@ Ehren Chan: 100753167
 #### IMPORTANT NOTE: The figures section in the appendix at the end of the report has a large blank space between the 3rd figure and 4th figure. Due to time constraints, we were unable to properly fix this in time but wanted to make note of it for the marking of the assignment.
 
 Video Link:
+https://youtu.be/NyuyO29ctjk
 
 ## Interview Questions
 
