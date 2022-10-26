@@ -6,6 +6,7 @@ Ehren Chan: 100753167
 ## Assignment 2 Material
 
 Video Link:
+https://youtu.be/wAa28wVou1c
 
 ____________________________________________________________
 
