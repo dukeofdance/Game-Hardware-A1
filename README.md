@@ -1,9 +1,9 @@
-# Industrial Design for Game Hardware Assignment 1 Repo
+# Industrial Design for Game Hardware Final Project Repo
 
 Christian Riggi:100752293
 Ehren Chan: 100753167
 
-#### IMPORTANT NOTE: The figures section in the appendix at the end of the report has a large blank space between the 3rd figure and 4th figure. Due to time constraints, we were unable to properly fix this in time but wanted to make note of it for the marking of the assignment.
+#### IMPORTANT NOTE: THIS SECTION IS MATERIAL FROM ASSIGNMENT 1 (NOT ASSIGNMENT 2)
 
 Video Link:
 https://youtu.be/NyuyO29ctjk
@@ -17,3 +17,10 @@ https://docs.google.com/forms/d/e/1FAIpQLSf0SdGqLGcgTNKwU7WXws9SkSJcLHJSKxuTl0ko
 ## IEEE Report
 
 ![Game_Hardware_Assignment 1 Final Paper.pdf](https://github.com/dukeofdance/Game-Hardware-A1/files/9670870/Game_Hardware_Assignment.1.Final.Paper.pdf)
+
+##Assignment 2
+
+Video Link:
+
+
+
