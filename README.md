@@ -10,7 +10,9 @@ https://youtu.be/wAa28wVou1c
 
 Attached above, we have uploaded a video of the exploded animation of our peripheral.
 
-#### Additionally, we have also included a PDF document titled "Assignment 2 Drawings" which containins all the technical drawings, cicutry diagrams and prototyping that we completed for this assignment
+#### Additionally, we have also included a PDF document titled "Assignment 2 Technical Drawings & Bill of Materials" which containins all the technical drawings, cicutry diagrams, prototyping and the Bill of Materials that we completed for this assignment
+
+#### If you are interested in viewing the Technical drawings further, a zip file has also been uploded containing ALL THE TECHNICAL DRAWINGS AND EXPLODED VIEW.
 
 ____________________________________________________________
 
