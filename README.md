@@ -3,7 +3,7 @@
 Christian Riggi:100752293
 Ehren Chan: 100753167
 
-#### IMPORTANT NOTE: THIS SECTION IS MATERIAL FROM ASSIGNMENT 1 (NOT ASSIGNMENT 2)
+## Assignment 1 Material
 
 Video Link:
 https://youtu.be/NyuyO29ctjk
@@ -18,7 +18,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSf0SdGqLGcgTNKwU7WXws9SkSJcLHJSKxuTl0ko
 
 ![Game_Hardware_Assignment 1 Final Paper.pdf](https://github.com/dukeofdance/Game-Hardware-A1/files/9670870/Game_Hardware_Assignment.1.Final.Paper.pdf)
 
-## Assignment 2
+## Assignment 2 Material
 
 Video Link:
 
