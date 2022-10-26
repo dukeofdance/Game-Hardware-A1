@@ -8,6 +8,10 @@ Ehren Chan: 100753167
 Video Link:
 https://youtu.be/wAa28wVou1c
 
+Attached above, we have uploaded a video of the exploded animation of our peripheral.
+
+Additionally, we have also included a PDF document containing all the ### Technical Drawings, cicutry diagrams and prototyping that we completed for this assignment
+
 ____________________________________________________________
 
 ## Assignment 1 Material
