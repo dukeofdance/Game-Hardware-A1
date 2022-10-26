@@ -18,7 +18,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSf0SdGqLGcgTNKwU7WXws9SkSJcLHJSKxuTl0ko
 
 ![Game_Hardware_Assignment 1 Final Paper.pdf](https://github.com/dukeofdance/Game-Hardware-A1/files/9670870/Game_Hardware_Assignment.1.Final.Paper.pdf)
 
-##Assignment 2
+## Assignment 2
 
 Video Link:
 
