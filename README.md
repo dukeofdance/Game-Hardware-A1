@@ -3,6 +3,11 @@
 Christian Riggi:100752293
 Ehren Chan: 100753167
 
+## Assignment 2 Material
+
+Video Link:
+
+
 ## Assignment 1 Material
 
 Video Link:
@@ -17,10 +22,6 @@ https://docs.google.com/forms/d/e/1FAIpQLSf0SdGqLGcgTNKwU7WXws9SkSJcLHJSKxuTl0ko
 ## IEEE Report
 
 ![Game_Hardware_Assignment 1 Final Paper.pdf](https://github.com/dukeofdance/Game-Hardware-A1/files/9670870/Game_Hardware_Assignment.1.Final.Paper.pdf)
-
-## Assignment 2 Material
-
-Video Link:
 
 
 
