@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class Tire : MonoBehaviour
 {
+    public SerialController serialController;
+
+
     public GameObject l1;
     public GameObject l2;
     public GameObject l3;
@@ -28,9 +31,12 @@ public class Tire : MonoBehaviour
     bool flag3 = false;
     bool flag4 = false;
     bool flag5 = false;
+    string[] port= new string[3];//3
     // Start is called before the first frame update
     void Start()
     {
+        serialController = GameObject.Find("SerialController").GetComponent<SerialController>();
+
         t1.text = "0%";
         t2.text = "0%";
         t3.text = "0%";
@@ -43,7 +49,8 @@ public class Tire : MonoBehaviour
     {
         if (flag1 == true)
         {
-            t1.text = (int)(((num1 % 360) / 360) * 100) + "%";
+            t1.text = num1 + "%";
+            //t1.text = (int)(((num1 % 360) / 360) * 100) + "%";
         }
         if (flag2 == true)
         {
@@ -62,41 +69,79 @@ public class Tire : MonoBehaviour
             t5.text = (int)(((num5 % 360) / 360) * 100) + "%";
         }
 
-        if (Input.GetKey(KeyCode.Q))
+        string message = serialController.ReadSerialMessage();
+
+        if (ReferenceEquals(message, SerialController.SERIAL_DEVICE_CONNECTED))
+            Debug.Log("YoH0");
+        else if (ReferenceEquals(message, SerialController.SERIAL_DEVICE_DISCONNECTED))
+            Debug.Log("DEAD");
+        else
         {
+            if (message == null || message.Equals(""))
+            {
+                return;
+            }
+            else
+            {
+                Debug.Log("Message myDude: " + message);
+                port = message.Split(":");
+                Debug.Log("p1: " + port[0]);
+                Debug.Log("p2: " + port[1]);
+                Debug.Log("p3: " + port[2]);
 
-            num1 += 1;
-            l1.transform.rotation = Quaternion.Euler(0, 0, num1);
-            flag1 = true;
+                if (port[0].Equals("A1"))
+                {
+                    int temp = int.Parse(port[1]);
+                    //num1 += temp;
+                    if (temp != 0)
+                    {
+                        if (port[2].Equals("CW"))
+                        {
+                            num1 += Mathf.Pow(temp,0);
+                        }
+                        else if (port[2].Equals("CCW")&&num1>0)
+                        {
+                            num1 -= Mathf.Pow(temp,0);
+                        }
+                        else
+                        {
+                            Debug.Log("AFGEAVDAFSASDF");
+                        }
+                    }
+                    //num1 += 1;
+                    l1.transform.rotation = Quaternion.Euler(0, 0, num1);
+                    flag1 = true;
 
-        }
-        if (Input.GetKey(KeyCode.W))
-        {
-            num2 += 1;
-            l2.transform.rotation = Quaternion.Euler(0, 0, num2);
-            flag2 = true;
+                }
+                if (Input.GetKey(KeyCode.W))
+                {
+                    num2 += 1;
+                    l2.transform.rotation = Quaternion.Euler(0, 0, num2);
+                    flag2 = true;
 
-        }
-        if (Input.GetKey(KeyCode.E))
-        {
-            num3 += 1;
-            l3.transform.rotation = Quaternion.Euler(0, 0, num3);
-            flag3 = true;
+                }
+                if (Input.GetKey(KeyCode.E))
+                {
+                    num3 += 1;
+                    l3.transform.rotation = Quaternion.Euler(0, 0, num3);
+                    flag3 = true;
 
-        }
-        if (Input.GetKey(KeyCode.R))
-        {
-            num4 += 1;
-            l4.transform.rotation = Quaternion.Euler(0, 0, num4);
-            flag4 = true;
+                }
+                if (Input.GetKey(KeyCode.R))
+                {
+                    num4 += 1;
+                    l4.transform.rotation = Quaternion.Euler(0, 0, num4);
+                    flag4 = true;
 
-        }
-        if (Input.GetKey(KeyCode.T))
-        {
-            num5 += 1;
-            l5.transform.rotation = Quaternion.Euler(0, 0, num5);
-            flag5 = true;
+                }
+                if (Input.GetKey(KeyCode.T))
+                {
+                    num5 += 1;
+                    l5.transform.rotation = Quaternion.Euler(0, 0, num5);
+                    flag5 = true;
 
+                }
+            }
         }
 
     }
