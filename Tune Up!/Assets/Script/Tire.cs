@@ -109,7 +109,7 @@ public class Tire : MonoBehaviour
                         }
                     }
                     //num1 += 1;
-                    l1.transform.rotation = Quaternion.Euler(0, 0, num1);
+                    l1.transform.rotation = Quaternion.Euler(0, 0, -num1);
                     flag1 = true;
 
                 }
