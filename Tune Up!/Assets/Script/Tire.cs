@@ -49,8 +49,10 @@ public class Tire : MonoBehaviour
     {
         if (flag1 == true)
         {
-            t1.text = num1 + "%";
-            //t1.text = (int)(((num1 % 360) / 360) * 100) + "%";
+            t1.text = num1 + "%";//update text
+            {//t1.text = (int)(((num1 % 360) / 360) * 100) + "%";
+            }
+            flag1 = false;
         }
         if (flag2 == true)
         {
@@ -78,21 +80,21 @@ public class Tire : MonoBehaviour
         else
         {
             if (message == null || message.Equals(""))
-            {
                 return;
-            }
             else
             {
                 Debug.Log("Message myDude: " + message);
                 port = message.Split(":");
+                {/*
                 Debug.Log("p1: " + port[0]);
                 Debug.Log("p2: " + port[1]);
                 Debug.Log("p3: " + port[2]);
-
+                */
+                }
                 if (port[0].Equals("A1"))
                 {
                     int temp = int.Parse(port[1]);
-                    //num1 += temp;
+                    
                     if (temp != 0)
                     {
                         if (port[2].Equals("CW"))
@@ -109,7 +111,7 @@ public class Tire : MonoBehaviour
                         }
                     }
                     //num1 += 1;
-                    l1.transform.rotation = Quaternion.Euler(0, 0, -num1);
+                    l1.transform.rotation = Quaternion.Euler(0, 0, -num1);//rotate object
                     flag1 = true;
 
                 }
