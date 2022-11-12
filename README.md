@@ -7,8 +7,28 @@ ____________________________________________________________
 
 Presentation Video Link:
 
-https://cdn.discordapp.com/attachments/686777864875409409/1040785487507488818/image.png
 ____________________________________________________________
+
+3D Printed Parts
+
+<img src="https://cdn.discordapp.com/attachments/686777864875409409/1040812977487626250/851A059F-C3CF-40E8-9026-C874C1A34ABA.jpg" height="500" width="500" >
+
+Individual piece of base:
+
+<img src="https://cdn.discordapp.com/attachments/686777864875409409/1040785487507488818/image.png" >
+
+Platform and Legs:
+
+<img src="https://cdn.discordapp.com/attachments/686777864875409409/1040786047098957894/image.png" >
+
+Shell:
+
+<img src="https://cdn.discordapp.com/attachments/686777864875409409/1040786589548294155/image.png" >
+
+Shell without supports:
+
+<img src="https://cdn.discordapp.com/attachments/686777864875409409/1040786782142341161/image.png" >
+
 ## Assignment 2 Material
 
 Video Link:
