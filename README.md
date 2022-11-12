@@ -6,7 +6,7 @@ ____________________________________________________________
 ## Assignment 3 Material
 
 Presentation Video Link:
-
+https://youtu.be/XSQ7s9pJULg
 ____________________________________________________________
 
 3D Printed Parts
