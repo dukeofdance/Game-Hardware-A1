@@ -2,7 +2,13 @@
 
 Christian Riggi:100752293
 Ehren Chan: 100753167
+____________________________________________________________
+## Assignment 3 Material
 
+Presentation Video Link:
+
+
+____________________________________________________________
 ## Assignment 2 Material
 
 Video Link:
