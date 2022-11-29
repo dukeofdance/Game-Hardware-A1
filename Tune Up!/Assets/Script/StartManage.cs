@@ -24,4 +24,8 @@ public class StartManage : MonoBehaviour
     {
         SceneManager.LoadScene("intro");
     }
+    public void Replay()
+    {
+        SceneManager.LoadScene("Tire");
+    }
 }

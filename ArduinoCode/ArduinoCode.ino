@@ -68,7 +68,11 @@ void loop()
       currentDir =":CW";
       digitalWrite(9,HIGH);//LED on
     }
-    
+     if (analogRead(A1) > 0) {
+        Serial.print("A1:");
+        Serial.print(analogRead(A1));
+        Serial.println(currentDir);
+    }
   }
   //Lugnut 2 direction
   if (curState2 != laState2  && curState2 == 1){
@@ -76,6 +80,11 @@ void loop()
       currentDir2 =":CCW";
     } else {
       currentDir2 =":CW";
+    }
+     if (analogRead(A2) > 0) {
+        Serial.print("A2:");
+        Serial.print(analogRead(A2));
+        Serial.println(currentDir2);
     }
   }
   //Lugnut 3 direction
@@ -85,6 +94,12 @@ void loop()
     } else {
       currentDir3 =":CW";
     }
+    
+  if (analogRead(A3) > 0) {
+        Serial.print("A3:");
+        Serial.print(analogRead(A3));
+        Serial.println(currentDir3);
+    }
   }
   //Lugnut 4 direction
   if (curState4 != laState4  && curState4 == 1){
@@ -92,6 +107,11 @@ void loop()
       currentDir4 =":CCW";
     } else {
       currentDir4 =":CW";
+    }
+      if (analogRead(A4) > 0) {
+        Serial.print("A4:");
+        Serial.print(analogRead(A4));
+        Serial.println(currentDir4);
     }
   }
   //Lugnut 5 direction
@@ -101,6 +121,11 @@ void loop()
     } else {
       currentDir5 =":CW";
     }
+     if (analogRead(A5) > 0) {
+        Serial.print("A5:");
+        Serial.print(analogRead(A5));
+        Serial.println(currentDir5);
+    }
   }
   // Remember last CLK state
   laState1 = curState1;
@@ -108,33 +133,9 @@ void loop()
   laState3 = curState3;
   laState4 = curState4;
   laState5 = curState5;
-
-
-  if (analogRead(A1) > 0) {
-        Serial.print("A1:");
-        Serial.print(analogRead(A1));
-        Serial.println(currentDir);
-    }
     
-  if (analogRead(A2) > 0) {
-        Serial.print("A2:");
-        Serial.print(analogRead(A2));
-        Serial.println(currentDir2);
-  }
-  if (analogRead(A3) > 0) {
-        Serial.print("A3:");
-        Serial.print(analogRead(A3));
-        Serial.println(currentDir3);
-  }
-  if (analogRead(A4) > 0) {
-        Serial.print("A4:");
-        Serial.print(analogRead(A4));
-        Serial.println(currentDir4);
-  }
-  if (analogRead(A5) > 0) {
-        Serial.print("A5:");
-        Serial.print(analogRead(A5));
-        Serial.println(currentDir5);
-  }
+ 
+
+ 
   
 }

@@ -2949,6 +2949,8 @@ MonoBehaviour:
   t5: {fileID: 1082426270}
   winText: {fileID: 739208551}
   winBG: {fileID: 1536563335}
+  spinSpeed: 4
+  LugScale: 3
 --- !u!4 &2053319787 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3c8773c0f7d04a44b8d811e1f97ec5b5, type: 3}
@@ -3056,6 +3058,8 @@ MonoBehaviour:
   t5: {fileID: 1082426270}
   winText: {fileID: 0}
   winBG: {fileID: 0}
+  spinSpeed: 0
+  LugScale: 0
 --- !u!136 &2122360862
 CapsuleCollider:
   m_ObjectHideFlags: 0
