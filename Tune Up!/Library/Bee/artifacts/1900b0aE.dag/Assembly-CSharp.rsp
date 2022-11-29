@@ -364,6 +364,7 @@
 "Assets/Ardity/Scripts/Threads/SerialThreadCustomDelimiter.cs"
 "Assets/Ardity/Scripts/Threads/SerialThreadLines.cs"
 "Assets/Script/SceneManage.cs"
+"Assets/Script/StartManage.cs"
 "Assets/Script/Tire.cs"
 -langversion:9.0
 

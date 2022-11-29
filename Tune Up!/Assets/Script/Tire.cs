@@ -56,19 +56,23 @@ public class Tire : MonoBehaviour
         }
         if (flag2 == true)
         {
-            t2.text = (int)(((num2 % 360) / 360) * 100) + "%";
+            t2.text = num2 + "%";//update text
+            //t2.text = (int)(((num2 % 360) / 360) * 100) + "%";
         }
         if (flag3 == true)
         {
-            t3.text = (int)(((num3 % 360) / 360) * 100) + "%";
+            t3.text = num3 + "%";//update text
+            //t3.text = (int)(((num3 % 360) / 360) * 100) + "%";
         }
         if (flag4 == true)
         {
-            t4.text = (int)(((num4 % 360) / 360) * 100) + "%";
+            t4.text = num4 + "%";//update text
+            //t4.text = (int)(((num4 % 360) / 360) * 100) + "%";
         }
         if (flag5 == true)
         {
-            t5.text = (int)(((num5 % 360) / 360) * 100) + "%";
+            t5.text = num5 + "%";//update text
+            //t5.text = (int)(((num5 % 360) / 360) * 100) + "%";
         }
 
         string message = serialController.ReadSerialMessage();
@@ -110,38 +114,97 @@ public class Tire : MonoBehaviour
                             Debug.Log("AFGEAVDAFSASDF");
                         }
                     }
-                    //num1 += 1;
                     l1.transform.rotation = Quaternion.Euler(0, 0, -num1);//rotate object
                     flag1 = true;
 
                 }
-                if (Input.GetKey(KeyCode.W))
+                if (port[0].Equals("A2"))
                 {
-                    num2 += 1;
-                    l2.transform.rotation = Quaternion.Euler(0, 0, num2);
+                    int temp = int.Parse(port[1]);
+
+                    if (temp != 0)
+                    {
+                        if (port[2].Equals("CW"))
+                        {
+                            num2 += Mathf.Pow(temp, 0);
+                        }
+                        else if (port[2].Equals("CCW") && num2 > 0)
+                        {
+                            num2 -= Mathf.Pow(temp, 0);
+                        }
+                        else
+                        {
+                            Debug.Log("AFGEAVDAFSASDF");
+                        }
+                    }
+                    l2.transform.rotation = Quaternion.Euler(0, 0, -num2);//rotate object
                     flag2 = true;
-
                 }
-                if (Input.GetKey(KeyCode.E))
+                if (port[0].Equals("A3"))
                 {
-                    num3 += 1;
-                    l3.transform.rotation = Quaternion.Euler(0, 0, num3);
+                    int temp = int.Parse(port[1]);
+
+                    if (temp != 0)
+                    {
+                        if (port[2].Equals("CW"))
+                        {
+                            num3 += Mathf.Pow(temp, 0);
+                        }
+                        else if (port[2].Equals("CCW") && num3 > 0)
+                        {
+                            num3 -= Mathf.Pow(temp, 0);
+                        }
+                        else
+                        {
+                            Debug.Log("AFGEAVDAFSASDF");
+                        }
+                    }
+                    l3.transform.rotation = Quaternion.Euler(0, 0, -num3);//rotate object
                     flag3 = true;
-
                 }
-                if (Input.GetKey(KeyCode.R))
+                if (port[0].Equals("A4"))
                 {
-                    num4 += 1;
-                    l4.transform.rotation = Quaternion.Euler(0, 0, num4);
+                    int temp = int.Parse(port[1]);
+
+                    if (temp != 0)
+                    {
+                        if (port[2].Equals("CW"))
+                        {
+                            num4 += Mathf.Pow(temp, 0);
+                        }
+                        else if (port[2].Equals("CCW") && num4 > 0)
+                        {
+                            num4 -= Mathf.Pow(temp, 0);
+                        }
+                        else
+                        {
+                            Debug.Log("AFGEAVDAFSASDF");
+                        }
+                    }
+                    l4.transform.rotation = Quaternion.Euler(0, 0, -num4);//rotate object
                     flag4 = true;
-
                 }
-                if (Input.GetKey(KeyCode.T))
+                if (port[0].Equals("A5"))
                 {
-                    num5 += 1;
-                    l5.transform.rotation = Quaternion.Euler(0, 0, num5);
-                    flag5 = true;
+                    int temp = int.Parse(port[1]);
 
+                    if (temp != 0)
+                    {
+                        if (port[2].Equals("CW"))
+                        {
+                            num5 += Mathf.Pow(temp, 0);
+                        }
+                        else if (port[2].Equals("CCW") && num5 > 0)
+                        {
+                            num5 -= Mathf.Pow(temp, 0);
+                        }
+                        else
+                        {
+                            Debug.Log("AFGEAVDAFSASDF");
+                        }
+                    }
+                    l5.transform.rotation = Quaternion.Euler(0, 0, -num5);//rotate object
+                    flag5 = true;
                 }
             }
         }
