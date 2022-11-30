@@ -24,7 +24,11 @@ public class Tire : MonoBehaviour
     //WinUI
     public Text winText;
     public Image winBG;
-    
+    //Direction
+    public Text turnText;
+    public RawImage arrow;
+    public RawImage wrench;
+     
     //each lugnut's rotation amount
     float num1;
     float num2;
@@ -46,8 +50,10 @@ public class Tire : MonoBehaviour
     bool d4;
     bool d5;
 
+    //Loosened all lugnuts
     bool changed = false;
 
+    //Speed of spinning
     public int spinSpeed;
     public int LugScale;
 
@@ -535,6 +541,9 @@ public class Tire : MonoBehaviour
             if (changed == false)
             {
                 changed = true;
+                arrow.transform.rotation = Quaternion.Euler(0, 0, -10);
+                wrench.transform.rotation = Quaternion.Euler(0, 180,0);
+                turnText.text = "Tighten";
                 winBG.enabled = true;
                 winText.enabled = true;
                 winText.text = "You took out all the lugnuts. Removing Tire please wait...";
@@ -547,9 +556,7 @@ public class Tire : MonoBehaviour
             }
             else
             {
-                //winBG.enabled = true;
-                //winText.enabled = true;
-                //winText.text = "You finished replacing the tire! Congraz!!!!!!!";
+                
                 SceneManager.LoadScene("End");
             }
         }
