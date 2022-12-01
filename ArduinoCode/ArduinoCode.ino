@@ -35,6 +35,7 @@ void setup()
   pinMode(DT2, INPUT);
 
   pinMode(9,OUTPUT);
+  pinMode(10, OUTPUT);
   
   laState1 = digitalRead(A1);
   laState2 = digitalRead(A2);
@@ -62,11 +63,13 @@ void loop()
     // the encoder is rotating CCW so decrement
     if (digitalRead(DT1) != curState1) {
       currentDir =":CCW";
-      digitalWrite(9,LOW); //LED off
+      digitalWrite(9,LOW); //RED LED off
+      digitalWrite(10,HIGH);//GREEN LED on
     } else {
       // Encoder is rotating CW so increment
       currentDir =":CW";
-      digitalWrite(9,HIGH);//LED on
+      digitalWrite(9,HIGH);//Red LED on
+      digitalWrite(10,LOW); //Green LED off
     }
      if (analogRead(A1) > 0) {
         Serial.print("A1:");
@@ -78,8 +81,12 @@ void loop()
   if (curState2 != laState2  && curState2 == 1){
     if (digitalRead(DT2) != curState2) {
       currentDir2 =":CCW";
+      digitalWrite(9,LOW); //RED LED off
+      digitalWrite(10,HIGH);//GREEN LED on
     } else {
       currentDir2 =":CW";
+      digitalWrite(9,HIGH); //RED LED on
+      digitalWrite(10,LOW);//GREEN LED off
     }
      if (analogRead(A2) > 0) {
         Serial.print("A2:");
@@ -91,8 +98,12 @@ void loop()
   if (curState3 != laState3  && curState3 == 1){
     if (digitalRead(DT3) != curState3) {
       currentDir3 =":CCW";
+      digitalWrite(9,LOW); //RED LED off
+      digitalWrite(10,HIGH);//GREEN LED on
     } else {
       currentDir3 =":CW";
+      digitalWrite(9,HIGH); //RED LED on
+      digitalWrite(10,LOW);//GREEN LED off
     }
     
   if (analogRead(A3) > 0) {
@@ -105,8 +116,12 @@ void loop()
   if (curState4 != laState4  && curState4 == 1){
     if (digitalRead(DT4) != curState4) {
       currentDir4 =":CCW";
+      digitalWrite(9,LOW); //RED LED off
+      digitalWrite(10,HIGH);//GREEN LED on
     } else {
       currentDir4 =":CW";
+      digitalWrite(9,HIGH); //RED LED on
+      digitalWrite(10,LOW);//GREEN LED off
     }
       if (analogRead(A4) > 0) {
         Serial.print("A4:");
@@ -118,8 +133,12 @@ void loop()
   if (curState5 != laState5  && curState5 == 1){
     if (digitalRead(DT5) != curState5) {
       currentDir5 =":CCW";
+      digitalWrite(9,LOW); //RED LED off
+      digitalWrite(10,HIGH);//GREEN LED on
     } else {
       currentDir5 =":CW";
+      digitalWrite(9,HIGH); //RED LED on
+      digitalWrite(10,LOW);//GREEN LED off
     }
      if (analogRead(A5) > 0) {
         Serial.print("A5:");

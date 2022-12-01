@@ -426,7 +426,7 @@ public class Tire : MonoBehaviour
                                     {
                                         num3 += Mathf.Pow(temp, 0) * LugScale;
                                     }
-                                    else if (port[2].Equals("CVW") && num3 > 0)
+                                    else if (port[2].Equals("CCW") && num3 > 0)
                                     {
                                         num3 -= Mathf.Pow(temp, 0) * LugScale;
                                     }
