@@ -1,8 +1,8 @@
-#define DT1 7
-#define DT2 8
-#define DT3 12
+#define DT1 8
+#define DT2 12
+#define DT3 4
 #define DT4 2
-#define DT5 4
+#define DT5 7
 
 float curState1;
 float curState2;

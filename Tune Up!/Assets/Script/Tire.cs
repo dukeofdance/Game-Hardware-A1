@@ -320,11 +320,11 @@ public class Tire : MonoBehaviour
                             {
                                 if (changed == false)
                                 {
-                                    if (port[2].Equals("CW"))
+                                    if (port[2].Equals("CCW"))
                                     {
                                         num1 += Mathf.Pow(temp, 0)*LugScale;
                                     }
-                                    else if (port[2].Equals("CCW") && num1 > 0)
+                                    else if (port[2].Equals("CW") && num1 > 0)
                                     {
                                         num1 -= Mathf.Pow(temp, 0) * LugScale;
                                     }
@@ -335,11 +335,11 @@ public class Tire : MonoBehaviour
                                 }
                                 else
                                 {
-                                    if (port[2].Equals("CCW"))
+                                    if (port[2].Equals("CW"))
                                     {
                                         num1 += Mathf.Pow(temp, 0) * LugScale;
                                     }
-                                    else if (port[2].Equals("CW") && num1 > 0)
+                                    else if (port[2].Equals("CCW") && num1 > 0)
                                     {
                                         num1 -= Mathf.Pow(temp, 0) * LugScale;
                                     }
@@ -364,11 +364,11 @@ public class Tire : MonoBehaviour
                             {
                                 if (changed == false)
                                 {
-                                    if (port[2].Equals("CW"))
+                                    if (port[2].Equals("CCW"))
                                     {
                                         num2 += Mathf.Pow(temp, 0) * LugScale;
                                     }
-                                    else if (port[2].Equals("CCW") && num2 > 0)
+                                    else if (port[2].Equals("CW") && num2 > 0)
                                     {
                                         num2 -= Mathf.Pow(temp, 0) * LugScale;
                                     }
@@ -379,11 +379,11 @@ public class Tire : MonoBehaviour
                                 }
                                 else
                                 {
-                                    if (port[2].Equals("CCW"))
+                                    if (port[2].Equals("CC"))
                                     {
                                         num2 += Mathf.Pow(temp, 0) * LugScale;
                                     }
-                                    else if (port[2].Equals("CW") && num2 > 0)
+                                    else if (port[2].Equals("CCW") && num2 > 0)
                                     {
                                         num2 -= Mathf.Pow(temp, 0) * LugScale;
                                     }
@@ -407,11 +407,11 @@ public class Tire : MonoBehaviour
                             {
                                 if (changed == false)
                                 {
-                                    if (port[2].Equals("CCW"))
+                                    if (port[2].Equals("CW"))
                                     {
                                         num3 += Mathf.Pow(temp, 0) * LugScale;
                                     }
-                                    else if (port[2].Equals("CW") && num3 > 0)
+                                    else if (port[2].Equals("CCW") && num3 > 0)
                                     {
                                         num3 -= Mathf.Pow(temp, 0) * LugScale;
                                     }
@@ -422,11 +422,11 @@ public class Tire : MonoBehaviour
                                 }
                                 else
                                 {
-                                    if (port[2].Equals("CW"))
+                                    if (port[2].Equals("CCW"))
                                     {
                                         num3 += Mathf.Pow(temp, 0) * LugScale;
                                     }
-                                    else if (port[2].Equals("CCW") && num3 > 0)
+                                    else if (port[2].Equals("CW") && num3 > 0)
                                     {
                                         num3 -= Mathf.Pow(temp, 0) * LugScale;
                                     }
@@ -450,11 +450,11 @@ public class Tire : MonoBehaviour
                             {
                                 if (changed == false)
                                 {
-                                    if (port[2].Equals("CCW"))
+                                    if (port[2].Equals("CW"))
                                     {
                                         num4 += Mathf.Pow(temp, 0) * LugScale;
                                     }
-                                    else if (port[2].Equals("CW") && num4 > 0)
+                                    else if (port[2].Equals("CCW") && num4 > 0)
                                     {
                                         num4 -= Mathf.Pow(temp, 0) * LugScale;
                                     }
@@ -465,11 +465,11 @@ public class Tire : MonoBehaviour
                                 }
                                 else
                                 {
-                                    if (port[2].Equals("CW"))
+                                    if (port[2].Equals("CCW"))
                                     {
                                         num4 += Mathf.Pow(temp, 0) * LugScale;
                                     }
-                                    else if (port[2].Equals("CCW") && num4 > 0)
+                                    else if (port[2].Equals("CW") && num4 > 0)
                                     {
                                         num4 -= Mathf.Pow(temp, 0) * LugScale;
                                     }
@@ -493,11 +493,11 @@ public class Tire : MonoBehaviour
                             {
                                 if (changed == false)
                                 {
-                                    if (port[2].Equals("CW"))
+                                    if (port[2].Equals("CCW"))
                                     {
                                         num5 += Mathf.Pow(temp, 0) * LugScale;
                                     }
-                                    else if (port[2].Equals("CCW") && num5 > 0)
+                                    else if (port[2].Equals("CW") && num5 > 0)
                                     {
                                         num5 -= Mathf.Pow(temp, 0) * LugScale;
                                     }
@@ -508,11 +508,11 @@ public class Tire : MonoBehaviour
                                 }
                                 else
                                 {
-                                    if (port[2].Equals("CCW"))
+                                    if (port[2].Equals("CW"))
                                     {
                                         num5 += Mathf.Pow(temp, 0) * LugScale;
                                     }
-                                    else if (port[2].Equals("CW") && num5 > 0)
+                                    else if (port[2].Equals("CCW") && num5 > 0)
                                     {
                                         num5 -= Mathf.Pow(temp, 0) * LugScale;
                                     }
@@ -541,8 +541,8 @@ public class Tire : MonoBehaviour
             if (changed == false)
             {
                 changed = true;
-                arrow.transform.rotation = Quaternion.Euler(0, 0, -10);
-                wrench.transform.rotation = Quaternion.Euler(0, 180,0);
+                arrow.transform.rotation = Quaternion.Euler(0, 180, -10);
+                wrench.transform.rotation = Quaternion.Euler(0, 0,0);
                 turnText.text = "Tighten";
                 winBG.enabled = true;
                 winText.enabled = true;
