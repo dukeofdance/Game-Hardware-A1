@@ -52,7 +52,7 @@ public class Tire : MonoBehaviour
 
     //Loosened all lugnuts
     bool changed = false;
-
+    int c = -1;
     //Speed of spinning
     public int spinSpeed;
     public int LugScale;
@@ -349,7 +349,7 @@ public class Tire : MonoBehaviour
                                     }
                                 }
                             }
-                            l1.transform.rotation = Quaternion.Euler(0, 180, -num1 * spinSpeed);//rotate object
+                            l1.transform.rotation = Quaternion.Euler(0, 180, c*num1 * spinSpeed);//rotate object
                             flag1 = true;
 
                         }
@@ -379,7 +379,7 @@ public class Tire : MonoBehaviour
                                 }
                                 else
                                 {
-                                    if (port[2].Equals("CC"))
+                                    if (port[2].Equals("CW"))
                                     {
                                         num2 += Mathf.Pow(temp, 0) * LugScale;
                                     }
@@ -393,7 +393,7 @@ public class Tire : MonoBehaviour
                                     }
                                 }
                             }
-                            l2.transform.rotation = Quaternion.Euler(0, 180, -num2 * spinSpeed);//rotate object
+                            l2.transform.rotation = Quaternion.Euler(0, 180, c*num2 * spinSpeed);//rotate object
                             flag2 = true;
                         }
                     }
@@ -436,7 +436,7 @@ public class Tire : MonoBehaviour
                                     }
                                 }
                             }
-                            l3.transform.rotation = Quaternion.Euler(0, 180, -num3 * spinSpeed);//rotate object
+                            l3.transform.rotation = Quaternion.Euler(0, 180, c*num3 * spinSpeed);//rotate object
                             flag3 = true;
                         }
                     }
@@ -479,7 +479,7 @@ public class Tire : MonoBehaviour
                                     }
                                 }
                             }
-                            l4.transform.rotation = Quaternion.Euler(0, 180, -num4 * spinSpeed);//rotate object
+                            l4.transform.rotation = Quaternion.Euler(0, 180, c*num4 * spinSpeed);//rotate object
                             flag4 = true;
                         }
                     }
@@ -522,7 +522,7 @@ public class Tire : MonoBehaviour
                                     }
                                 }
                             }
-                            l5.transform.rotation = Quaternion.Euler(0, 180, -num5 * spinSpeed);//rotate object
+                            l5.transform.rotation = Quaternion.Euler(0, 180, c*num5 * spinSpeed);//rotate object
                             flag5 = true;
                         }
                     }
@@ -541,6 +541,7 @@ public class Tire : MonoBehaviour
             if (changed == false)
             {
                 changed = true;
+                c *= -1;
                 arrow.transform.rotation = Quaternion.Euler(0, 180, -10);
                 wrench.transform.rotation = Quaternion.Euler(0, 0,0);
                 turnText.text = "Tighten";
