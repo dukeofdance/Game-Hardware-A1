@@ -116,12 +116,12 @@ void loop()
   if (curState4 != laState4  && curState4 == 1){
     if (digitalRead(DT4) != curState4) {
       currentDir4 =":CCW";
-      digitalWrite(10,LOW); //
-      digitalWrite(9,HIGH);//
+      digitalWrite(9,LOW); //
+      digitalWrite(10,HIGH);//
     } else {
       currentDir4 =":CW";
-      digitalWrite(10,HIGH); //
-      digitalWrite(9,LOW);//
+      digitalWrite(9,HIGH); //
+      digitalWrite(10,LOW);//
     }
       if (analogRead(A4) > 0) {
         Serial.print("A4:");
@@ -133,12 +133,12 @@ void loop()
   if (curState5 != laState5  && curState5 == 1){
     if (digitalRead(DT5) != curState5) {
       currentDir5 =":CCW";
-      digitalWrite(10,LOW); 
-      digitalWrite(9,HIGH);
+      digitalWrite(9,LOW); 
+      digitalWrite(10,HIGH);
     } else {
       currentDir5 =":CW";
-      digitalWrite(10,HIGH);
-      digitalWrite(9,LOW);
+      digitalWrite(9,HIGH);
+      digitalWrite(10,LOW);
     }
      if (analogRead(A5) > 0) {
         Serial.print("A5:");
