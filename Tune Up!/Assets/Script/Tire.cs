@@ -349,7 +349,7 @@ public class Tire : MonoBehaviour
                                     }
                                 }
                             }
-                            l1.transform.rotation = Quaternion.Euler(0, 180, num1 * spinSpeed);//rotate object
+                            l1.transform.rotation = Quaternion.Euler(0, 180, -num1 * spinSpeed);//rotate object
                             flag1 = true;
 
                         }
@@ -393,7 +393,7 @@ public class Tire : MonoBehaviour
                                     }
                                 }
                             }
-                            l2.transform.rotation = Quaternion.Euler(0, 180, num2 * spinSpeed);//rotate object
+                            l2.transform.rotation = Quaternion.Euler(0, 180, -num2 * spinSpeed);//rotate object
                             flag2 = true;
                         }
                     }
@@ -406,21 +406,6 @@ public class Tire : MonoBehaviour
                             if (temp != 0)
                             {
                                 if (changed == false)
-                                {
-                                    if (port[2].Equals("CW"))
-                                    {
-                                        num3 += Mathf.Pow(temp, 0) * LugScale;
-                                    }
-                                    else if (port[2].Equals("CCW") && num3 > 0)
-                                    {
-                                        num3 -= Mathf.Pow(temp, 0) * LugScale;
-                                    }
-                                    else
-                                    {
-                                        Debug.Log("AFGEAVDAFSASDF");
-                                    }
-                                }
-                                else
                                 {
                                     if (port[2].Equals("CCW"))
                                     {
@@ -435,8 +420,23 @@ public class Tire : MonoBehaviour
                                         Debug.Log("AFGEAVDAFSASDF");
                                     }
                                 }
+                                else
+                                {
+                                    if (port[2].Equals("CW"))
+                                    {
+                                        num3 += Mathf.Pow(temp, 0) * LugScale;
+                                    }
+                                    else if (port[2].Equals("CVW") && num3 > 0)
+                                    {
+                                        num3 -= Mathf.Pow(temp, 0) * LugScale;
+                                    }
+                                    else
+                                    {
+                                        Debug.Log("AFGEAVDAFSASDF");
+                                    }
+                                }
                             }
-                            l3.transform.rotation = Quaternion.Euler(0, 180, num3 * spinSpeed);//rotate object
+                            l3.transform.rotation = Quaternion.Euler(0, 180, -num3 * spinSpeed);//rotate object
                             flag3 = true;
                         }
                     }
@@ -479,7 +479,7 @@ public class Tire : MonoBehaviour
                                     }
                                 }
                             }
-                            l4.transform.rotation = Quaternion.Euler(0, 180, num4 * spinSpeed);//rotate object
+                            l4.transform.rotation = Quaternion.Euler(0, 180, -num4 * spinSpeed);//rotate object
                             flag4 = true;
                         }
                     }
@@ -492,21 +492,6 @@ public class Tire : MonoBehaviour
                             if (temp != 0)
                             {
                                 if (changed == false)
-                                {
-                                    if (port[2].Equals("CCW"))
-                                    {
-                                        num5 += Mathf.Pow(temp, 0) * LugScale;
-                                    }
-                                    else if (port[2].Equals("CW") && num5 > 0)
-                                    {
-                                        num5 -= Mathf.Pow(temp, 0) * LugScale;
-                                    }
-                                    else
-                                    {
-                                        Debug.Log("AFGEAVDAFSASDF");
-                                    }
-                                }
-                                else
                                 {
                                     if (port[2].Equals("CW"))
                                     {
@@ -521,8 +506,23 @@ public class Tire : MonoBehaviour
                                         Debug.Log("AFGEAVDAFSASDF");
                                     }
                                 }
+                                else
+                                {
+                                    if (port[2].Equals("CCW"))
+                                    {
+                                        num5 += Mathf.Pow(temp, 0) * LugScale;
+                                    }
+                                    else if (port[2].Equals("CW") && num5 > 0)
+                                    {
+                                        num5 -= Mathf.Pow(temp, 0) * LugScale;
+                                    }
+                                    else
+                                    {
+                                        Debug.Log("AFGEAVDAFSASDF");
+                                    }
+                                }
                             }
-                            l5.transform.rotation = Quaternion.Euler(0, 180, num5 * spinSpeed);//rotate object
+                            l5.transform.rotation = Quaternion.Euler(0, 180, -num5 * spinSpeed);//rotate object
                             flag5 = true;
                         }
                     }
