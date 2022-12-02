@@ -9,7 +9,8 @@ ____________________________________________________________
 
 Presentation Video Link: https://youtu.be/olclRZ8T4vM
 
-IEEE Report PDF:
+IEEE Report PDF:[Game_Hardware_Final_Report.pdf](https://github.com/dukeofdance/Game-Hardware-Assignment-Repo/files/10142902/Game_Hardware_Final_Report.pdf)
+
 
 
 ____________________________________________________________
