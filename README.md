@@ -5,9 +5,12 @@ Ehren Chan: 100753167
 ____________________________________________________________
 ## Course Project Material
 
+***NOTE: Technical Drawings, Bill of Materials, QFD and SUS are located in the Final Course Project Folder
+
 Presentation Video Link:
 
 IEEE Report PDF:
+
 
 ____________________________________________________________
 ## Assignment 3 Material
