@@ -6,11 +6,15 @@ ____________________________________________________________
 ## Course Project Material
 
 Presentation Video Link:
+
+<img src="[Course Project - Exploded View FINAL.pdf](https://github.com/dukeofdance/Game-Hardware-Assignment-Repo/files/10140519/Course.Project.-.Exploded.View.FINAL.pdf)"
+
 ____________________________________________________________
 ## Assignment 3 Material
 
 Presentation Video Link:
 https://youtu.be/XSQ7s9pJULg
+
 ____________________________________________________________
 
 3D Printed Parts
