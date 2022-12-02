@@ -12,6 +12,8 @@ Presentation Video Link: https://youtu.be/olclRZ8T4vM
 
 IEEE Report PDF:[Game_Hardware_Final_Report.pdf](https://github.com/dukeofdance/Game-Hardware-Assignment-Repo/files/10142902/Game_Hardware_Final_Report.pdf)
 
+Overview Pictures of Our Controller:
+
 ![1](https://user-images.githubusercontent.com/56273491/205345777-3c1b62d1-b181-4e58-aed2-65901d7fc2b6.jpg)
 ![1](https://user-images.githubusercontent.com/56273491/205345817-0b3b1db0-5aa1-4bc6-8e3f-35aa08ea21b8.jpg)
 ![1](https://user-images.githubusercontent.com/56273491/205345835-4f913f5f-f962-4f5f-9789-43c5a8210d48.jpg)
