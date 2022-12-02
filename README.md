@@ -7,8 +7,7 @@ ____________________________________________________________
 
 Presentation Video Link:
 
-![Course Project - Exploded View](https://user-images.githubusercontent.com/56273491/205279377-0e80bc87-acb5-44a1-a1be-cfea22178327.png)
-
+IEEE Report PDF:
 
 ____________________________________________________________
 ## Assignment 3 Material
