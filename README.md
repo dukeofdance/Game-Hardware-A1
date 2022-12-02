@@ -6,6 +6,7 @@ ____________________________________________________________
 ## Course Project Material
 
 ### NOTE: Technical Drawings, Bill of Materials, QFD, SUS and Project timeline are located in the "Final Course Project Material" Folder
+### The unity file with the interactive scene can be downloaded through the folder "Tune-Up"
 
 Presentation Video Link: https://youtu.be/olclRZ8T4vM
 
