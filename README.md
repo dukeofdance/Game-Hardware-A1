@@ -7,7 +7,7 @@ ____________________________________________________________
 
 ### NOTE: Technical Drawings, Bill of Materials, QFD and SUS are located in the Final Course Project Folder
 
-Presentation Video Link:https://youtu.be/_9L5P0JePZ8
+Presentation Video Link:
 
 IEEE Report PDF:
 
