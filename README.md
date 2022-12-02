@@ -3,6 +3,10 @@
 Christian Riggi:100752293
 Ehren Chan: 100753167
 ____________________________________________________________
+## Course Project Material
+
+Presentation Video Link:
+____________________________________________________________
 ## Assignment 3 Material
 
 Presentation Video Link:
