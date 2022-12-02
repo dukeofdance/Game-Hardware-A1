@@ -12,6 +12,12 @@ Presentation Video Link: https://youtu.be/olclRZ8T4vM
 
 IEEE Report PDF:[Game_Hardware_Final_Report.pdf](https://github.com/dukeofdance/Game-Hardware-Assignment-Repo/files/10142902/Game_Hardware_Final_Report.pdf)
 
+![1](https://user-images.githubusercontent.com/56273491/205345777-3c1b62d1-b181-4e58-aed2-65901d7fc2b6.jpg)
+![1](https://user-images.githubusercontent.com/56273491/205345817-0b3b1db0-5aa1-4bc6-8e3f-35aa08ea21b8.jpg)
+![1](https://user-images.githubusercontent.com/56273491/205345835-4f913f5f-f962-4f5f-9789-43c5a8210d48.jpg)
+![1](https://user-images.githubusercontent.com/56273491/205345845-bddb454a-ed51-4ebd-b17c-1c7834039296.jpg)
+![1](https://user-images.githubusercontent.com/56273491/205345857-b9f81f9d-0e3c-48d9-9553-b4bd703e2c17.jpg)
+![1](https://user-images.githubusercontent.com/56273491/205345870-9dfd18c0-82a1-4fb7-918f-7fb015ab0a93.jpg)
 
 
 ____________________________________________________________
